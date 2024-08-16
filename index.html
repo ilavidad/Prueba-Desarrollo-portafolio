@@ -23,6 +23,8 @@
                 <li><a href="#portafolio">Portafolio</a></li>
                 <li><a href="#educación">Educación</a></li>
                 <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#colaboraciones">Colaboraciones</a></li>
+
 
             </ul>
         </nav>
@@ -94,7 +96,109 @@
                 <img src="/assets/img/css.png" alt="Descripción de la imagen" class="img-float-left">
                 <img src="/assets/img/htlm.png" alt="Descripción de la imagen" class="img-float-left">
             </div>
+        </section>
+
+        <section id="colaboraciones">
+            <h2>Colaboraciones</h2>
+
+            <p class="title">
+                Dentro de cada card podrás encontrar un visualizador, donde al hacer click a la imagen esta 
+                te llevará a link de cada proyecto forkeado 
+            </p>
+
+            <div class="container">
+                <div class="row">
+                    <!-- Primera Card -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="assets/img/forks.png" class="card-img-top" alt="Imagen de ejemplo" data-bs-toggle="modal" data-bs-target="#imageModal1">
+                            <div class="card-body">
+                                <h5 class="card-title">Colaboraciones en mi proyecto</h5>
+                                <p class="card-text">Evidencia de colaboración en mi proyecto personal</p>
+                            </div>
+                        </div>
+                    </div>
             
+                    <!-- Segunda Card -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="assets/img/fork1.png" class="card-img-top" alt="Imagen de ejemplo" data-bs-toggle="modal" data-bs-target="#imageModal2">
+                            <div class="card-body">
+                                <h5 class="card-title">Mi primer Fork</h5>
+                                <p class="card-text">Colaboración en proyecto de FranciscoMunozADS</p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Tercera Card -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="assets/img/fork2.png" class="card-img-top" alt="Imagen de ejemplo" data-bs-toggle="modal" data-bs-target="#imageModal3">
+                            <div class="card-body">
+                                <h5 class="card-title">Mi segundo Fork</h5>
+                                <p class="card-text">Colaboración en proyecto de Jhoandry-prog</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modales para visualizar imágenes ampliadas -->
+            
+            <!-- Modal 1 -->
+            <div class="modal fade" id="imageModal1" tabindex="-1" aria-labelledby="imageModalLabel1" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="imageModalLabel2">Imagen Ampliada</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <a href="https://github.com/ilavidad/Prueba-Desarrollo-portafolio/forks" target="_blank">
+                                <img src="assets/img/forks.png" class="img-fluid" alt="Imagen de ejemplo ampliada">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modal 2 -->
+            <div class="modal fade" id="imageModal2" tabindex="-1" aria-labelledby="imageModalLabel2" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="imageModalLabel2">Imagen Ampliada</h5> 
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <a href="https://github.com/FranciscoMunozADS/FranciscoMunozADS.github.io/forks" target="_blank">
+                                <img src="assets/img/fork1.png" class="img-fluid" alt="Imagen de ejemplo ampliada">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modal 3 -->
+            <div class="modal fade" id="imageModal3" tabindex="-1" aria-labelledby="imageModalLabel3" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="imageModalLabel3">Imagen Ampliada</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <a href="https://github.com/Jhoandry-prog/Jhoandry-prog.github.io/forks" target="_blank">
+                                <img src="assets/img/fork2.png" class="img-fluid" alt="Imagen de ejemplo ampliada">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+
 
         </section>
 
